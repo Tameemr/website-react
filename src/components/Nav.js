@@ -10,6 +10,7 @@ const Nav = () => {
           Capture
         </Link>
       </h1>
+
       <ul>
         <li>
           <Link to="/">1. About Us</Link>
