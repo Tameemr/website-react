@@ -1,4 +1,6 @@
 import React from "react";
+import ScrollTop from "./../components/ScrollTop";
+
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation, titleAnim } from "../animation";
@@ -38,6 +40,7 @@ const ContactUs = () => {
           </Social>
         </Hide>
       </div>
+      <ScrollTop />
     </ContactStyle>
   );
 };

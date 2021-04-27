@@ -1,4 +1,6 @@
 import React from "react";
+import ScrollTop from "./../components/ScrollTop";
+
 // Page components
 import AboutSection from "../components/AboutSection";
 import FaqSection from "../components/FaqSection";
@@ -18,6 +20,7 @@ const AboutUs = () => {
       <AboutSection />
       <ServicesSection />
       <FaqSection />
+      <ScrollTop />
     </motion.div>
   );
 };

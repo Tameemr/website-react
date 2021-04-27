@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import ScrollTop from "./../components/ScrollTop";
+
 //Images
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
@@ -74,6 +76,7 @@ const OurWork = () => {
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
+      <ScrollTop />
     </Work>
   );
 };
